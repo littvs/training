@@ -352,6 +352,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/littvs/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?note_annotation_20230509162022311",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-05-09T20:20:22.311Z",
+	"dcterms:modified": "2023-05-09T20:20:22.311Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/littvs",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Veronica Litt"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/littvs/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?note_annotation_20230509162022311#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/littvs/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/littvs/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?note_annotation_20230509162022311#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/closer/signed[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "This signature appears to have been written on a different piece of paper, cut into a small rectangular shape, then pasted onto this document. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
 			<projectDesc>
 				<p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -380,7 +459,7 @@
 				<signed><persName><persName key="Isabella Beecher Hooker" ref="http://www.wikidata.org/entity/Q13390410" role="sgn">Isabella Beecher Hooker</persName></persName></signed> 
 				<signed>Elizabeth S. Bladen</signed> 
 				<signed>Olympia Brown</signed> 
-				<signed>Susan B. Anthony</signed> 
+				<signed>Susan B. Anthony<note type="researchNote">This signature appears to have been written on a different piece of paper, cut into a small rectangular shape, then pasted onto this document. </note></signed> 
 				<signed>Josephine S. Griffing</signed> 
 				<dateline><placeName><placeName key="Hartford" ref="http://www.wikidata.org/entity/Q33486" cert="medium">Hartford Conn<precision match="@ref" precision="medium"/></placeName>.</placeName> <date><date when="1871-12">Dec. 1871</date></date></dateline></closer>
 		</body>
