@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,7 +35,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
                Editing Academic Framework (LEAF) / LEAF-Writer workshop. This file is not meant for
@@ -49,11 +45,11 @@
    </teiHeader>
    <text>
       <body>
-         <head><title>MRS DALLOWAY IN BOND STREET</title></head>
-         <byline>VIRGINIA WOOLF</byline>
-         <p>Mrs Dalloway said she would buy the gloves herself.</p>
+         <head><title><title>MRS DALLOWAY IN BOND STREET</title></title></head>
+         <byline><docAuthor>VIRGINIA WOOLF</docAuthor></byline>
+         <p><persName>Mrs Dalloway</persName> said she would buy the gloves herself.</p>
 
-         <p>Big Ben was striking as she stepped out into the street. It was eleven o'clock and the
+         <p><placeName>Big Ben</placeName> was striking as she stepped out into the street. It was eleven o'clock and the
             unused hour was fresh as if issued to children on a beach. But there was something
             solemn in the deliberate swing of the repeated strokes; something stirring in the murmur
             of wheels and the shuffle of footsteps.</p>
