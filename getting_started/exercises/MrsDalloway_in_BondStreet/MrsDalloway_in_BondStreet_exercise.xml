@@ -50,7 +50,7 @@
          <p><persName>Mrs Dalloway</persName> said she would buy the <objectName>gloves</objectName> herself.</p>
 
          <p><placeName><objectName>Big Ben</objectName></placeName> was striking as she stepped out into <placeName>the street</placeName>. It was <time>eleven o'clock</time> and the
-            unused hour was fresh as if issued to children on a <geogFeat>beach</geogFeat>. But there was something
+            unused hour was fresh<eg> as if issued to children on a <geogFeat>beach</geogFeat>.</eg> But there was something
             solemn in the deliberate swing of the repeated strokes; something stirring in the murmur
             of wheels and the shuffle of footsteps.</p>
 
