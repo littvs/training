@@ -47,10 +47,10 @@
       <body>
          <head><title><title><persName>MRS DALLOWAY</persName> IN <placeName>BOND STREET</placeName></title></title></head>
          <byline><docAuthor>VIRGINIA WOOLF</docAuthor></byline>
-         <p><persName>Mrs Dalloway</persName> said she would buy the gloves herself.</p>
+         <p><persName>Mrs Dalloway</persName> said she would buy the <objectType>gloves</objectType> herself.</p>
 
-         <p><placeName>Big Ben</placeName> was striking as she stepped out into <placeName>the street</placeName>. It was <time>eleven o'clock</time> and the
-            unused hour was fresh as if issued to children on a beach. But there was something
+         <p><placeName><objectName>Big Ben</objectName></placeName> was striking as she stepped out into <placeName>the street</placeName>. It was <time>eleven o'clock</time> and the
+            unused hour was fresh as if issued to children on a <geogFeat>beach</geogFeat>. But there was something
             solemn in the deliberate swing of the repeated strokes; something stirring in the murmur
             of wheels and the shuffle of footsteps.</p>
 
